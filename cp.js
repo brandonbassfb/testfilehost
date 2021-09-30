@@ -1,13 +1,14 @@
 (function() {
     var document = window.document;
+    var pageId = window.fb_gtm_fbid
     var fbRoot = document.createElement('div');
     document.body.appendChild(fbRoot);
   
     var fbCustomerChat = document.createElement('div'); 
     fbCustomerChat.setAttribute("id", "fb-customer-chat");
     fbCustomerChat.setAttribute("class", "fb-customerchat");
-    fbCustomerChat.setAttribute("page_id", "22902200256207");
-    fbCustomerChat.setAttribute("attribution", "gtm_setup_tool");   
+    fbCustomerChat.setAttribute("page_id", pageId);
+    fbCustomerChat.setAttribute("attribution", "gtm_community_tag");   
     document.body.appendChild(fbCustomerChat);
 
     window.fbAsyncInit = function() {
