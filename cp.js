@@ -1,4 +1,3 @@
-console.log("facebook chat executing");
 (function() {
     var document = window.document;
     var pageId = window.fb_gtm_fbid
