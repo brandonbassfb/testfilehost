@@ -1,5 +1,5 @@
+console.log("facebook chat executing");
 (function(window) {
-    console.log("facebook chat executing");
     var document = window.document;
     var pageId = window.fb_gtm_fbid
     var fbRoot = document.createElement('div');
