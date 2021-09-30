@@ -1,4 +1,4 @@
-(function(window) {
+(function() {
     var document = window.document;
     var fbRoot = document.createElement('div');
     document.body.appendChild(fbRoot);
